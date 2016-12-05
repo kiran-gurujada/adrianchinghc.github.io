@@ -1,0 +1,1 @@
+$(document).ready(function(){$('a[href^="#top"], a[href^="#about"], a[href^="#blog"], a[href^="#contact"]').on("click",function(e){e.preventDefault();var t=this.hash,n=$(t);$("html, body").stop().animate({scrollTop:n.offset().top},700,"swing",function(){window.location.hash=t})})});
